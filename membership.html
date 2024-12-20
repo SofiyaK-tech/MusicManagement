@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WELCOME TO MUSIC LIBRARY</title>
+        <link rel="stylesheet" href="membership.css">
+    </head>
+    <body>
+<div class="container">
+    <nav>
+        <img src="images/logo.png" class="logo">
+        <ul>
+            <li><a href="file:///C:/Users/satis/Desktop/p_visual/index.html">HOME</a></li>
+            <li><a href="file:///C:/Users/satis/Desktop/p_visual/about.html">ABOUT</a></li>
+            <li><a href="">REGISTER</a></li>
+       </ul>
+    </nav>
+</div>
+<div class="split-screen">
+    <div class="left">
+        <section class="copy">
+            <h1>WELCOME TO REGISTER SECTION </h1>
+            <p>
+            Thank you for the visit ,enjoy visiting!
+            </p>
+        </section>
+    </div>
+    <div class="right">
+        <form action="conect.php" method="post">
+            <div class="input-container name">
+                <label for="name">FULL NAME</label>
+                <input id="name" name="name" type="text">
+            </div>
+            <div class="input-container email">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email">
+            </div>
+            <div class="input-container password">
+                <label for="password">PASSWORD</label>
+                <input id="password" name="password" placeholder="Must be atleast 6 characters" type="password">
+                
+            </div>
+            <div class="input-container number">
+                <label for="phone">PHONE NUMBER</label>
+                <input id="phone" name="phone" type="tel" pattern="[0-9]{5}-[0-9]{5}">
+            </div>
+            <div class="input-container genre">
+                <label for="genre">GENRE</label>
+                <input id="name" name="genre" type="text">
+            </div>
+            <button>Submit</button>
+              </form>
+    </div>
+</div>
+
+    </body>
+</html>
